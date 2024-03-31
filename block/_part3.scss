@@ -99,3 +99,36 @@
     }
 
 }
+
+@media only screen and (max-width:425px){
+    .part3{
+        width: 425px;
+    }
+    
+    .part3__item1{
+        margin-left: 150px;
+    }
+
+    .part3__item2__img{
+        margin-left: 550px;
+    }
+
+    .part3__item3{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding: 100px;
+    }
+
+    .block1{
+        margin-bottom: 100px;
+    }
+
+    .block2{
+        margin-bottom: 100px;
+    }
+
+    .block3{
+        margin-left: -30px;
+    }
+}

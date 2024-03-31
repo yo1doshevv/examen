@@ -87,3 +87,33 @@
         top: 1270px;
     }
 }
+
+@media only screen and (max-width:425px){
+    .part2{
+        height: 670px;
+        width: 725px;
+    }
+
+    .part2__intro{
+        margin-top: 150px;
+        margin-left: -150px;
+    }
+
+    .rasm{
+        display: block;
+        justify-content: start;
+    }
+
+    .part2__box1{
+        margin-left: -100px;
+        margin-top: 70px;
+    }
+
+    .part2__box2{
+        margin-left: 200px;
+    }
+
+    .rasm{
+        margin-bottom: 40px;
+    }
+}

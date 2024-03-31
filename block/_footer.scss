@@ -42,3 +42,41 @@ path:hover{
         margin-left: 1px;
     }
 }
+
+@media only screen and (max-width:435px){
+    .footer{
+        width: 670px;
+        height: 370px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .footer__nav{
+        display: block;
+        margin-top: 80px;
+    }
+
+    .footer__nav a{
+        display: block;
+        justify-content: baseline;
+        align-items: baseline;
+        gap: 30px;
+    }
+
+    .footer__img{
+        margin-top: 110px;
+        margin-left: 260px;
+        display: flex;
+        justify-content: baseline;
+        gap: 40px;
+    }
+
+    .footer__logo{
+        position: relative;
+        top: 50px;
+    }
+}

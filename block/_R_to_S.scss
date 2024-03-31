@@ -40,3 +40,22 @@
     }
 }
 
+@media only screen and (max-width:425px){
+    .rtos{
+        margin-left: 150px;
+        width: 425px;
+    }
+
+    .rtos__title{
+        text-align: center;
+    }
+
+    .rtos__singup input{
+        margin-left: -50px;
+    }
+
+    .rtos__singup button{
+        width: 490px;
+        margin-left: -265px;
+    }
+}

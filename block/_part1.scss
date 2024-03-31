@@ -77,3 +77,38 @@
         top: 380px;
     }
 }
+
+
+@media  only screen and (max-width:425px) {
+    .part1__img{
+        position: absolute;
+        left: 195px;
+    }
+
+    .patr1__img1{
+        position: absolute;
+        left: 270px;
+    }
+
+    .part1__singup{
+        text-align: center;
+        margin-left: -180px;
+    }
+
+    .part1__singup button{
+        margin-top: 50px;
+        width: 500px;
+        margin-left: 1px;
+    }
+
+    .part1__singup input{
+        position: relative;
+        top: 20px;
+        width: 500px;
+    }
+
+    .part1__singup p{
+        margin-left: -5px;
+    }
+    
+}

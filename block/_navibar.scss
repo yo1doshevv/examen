@@ -17,6 +17,10 @@
     opacity: 0.7;
 }
 
+.navbar__burger{
+    display: none;
+}
+
 .navbar__navigation a:hover{
     @include hover;
 }
@@ -29,5 +33,29 @@
 @media only screen and (max-width:1080px) {
     .navbar__navigation{
         margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .navbar__navigation{
+        display: none;
+    }
+
+    .navbar__btn{
+        display: none;
+    }
+
+    .navbar__burger{
+        display: block;
+        justify-content: end;
+    }
+
+    .navbar__burger img{
+        margin-left: 500px;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
     }
 }
