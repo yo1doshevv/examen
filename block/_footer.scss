@@ -1,0 +1,44 @@
+.footer{
+    width: 100%;
+    padding: 10px;
+    background-image: url(/img/bgfon.png);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.footer__nav{
+    display: flex;
+    gap: 40px;
+    margin-left: -200px;
+}
+
+.footer__nav a{
+    text-decoration: none;
+    color: #98a6c2;
+}
+
+.footer__nav a:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.footer__img{
+    display: flex;
+    justify-content: baseline;
+    gap: 20px;
+}
+
+path:hover{
+    fill: #FB88B4;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1080px) {
+    .footer__nav{
+        display: flex;
+        gap: 40px;
+        margin-left: 1px;
+    }
+}

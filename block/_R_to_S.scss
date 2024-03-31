@@ -1,0 +1,42 @@
+.rtos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.rtos__singup input{
+    width: 480px;
+    height: 48px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    margin-top: 15px;
+}
+
+.rtos__singup input::placeholder{
+    margin-left: 50px;
+    position: absolute;
+    left: 0%;
+    right: 18.5%;
+}
+
+.rtos__singup button{
+    @include btn;
+    position: absolute;
+    margin-left: -170px;
+    margin-top: 15px;
+}
+
+.rtos__title{
+    color: rgb(99, 144, 161);
+}
+
+@media only screen and (max-width:1080px) {
+    .rtos{
+        display: block;
+        justify-content: center;
+        margin-top: 100px;
+        text-align: center;
+    }
+}
+

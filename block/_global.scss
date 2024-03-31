@@ -1,0 +1,65 @@
+.container{
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+}
+
+.container__img img{
+    position: absolute;
+    left: 750px;
+    top: -80px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    display: block;
+}
+
+.container__img1{
+    display: none;
+}
+
+.wrapper{
+    width: 90%;
+    margin: 50px auto;
+}
+
+@mixin btn{
+    border: none;
+    border-radius: 25px;
+    background-color:rgb(186, 66, 112);
+    width: 173px;
+    height: 48px;
+    color: white;
+}
+
+@mixin hover{
+    color:  rgb(6, 35, 59);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1080px){
+    .container{
+        width: 95%;
+        margin: 25px auto;
+    }
+
+    .wrapper{
+        width: 90%;
+        margin: 25px auto;
+    }
+
+    .container__img{
+        display: none;
+    }
+
+    .container__img1{
+        display: block;
+        position: absolute;
+        left: -7px;
+        top: -10px;
+    }
+
+    .container__img1 img{
+        width: 1080px;
+    }
+
+}

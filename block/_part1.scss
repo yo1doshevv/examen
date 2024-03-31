@@ -1,0 +1,79 @@
+.part1{
+    margin-top: 166px;
+}
+
+.part1__title{
+    width: 550px;
+    color: rgb(52, 90, 124);
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.part1__singup input{
+    width: 380px;
+    height: 48px;
+    border-radius: 20px;
+    border: none;
+    
+}
+
+.part1__singup input::placeholder{
+    margin-left: 50px;
+    position: absolute;
+    left: 0%;
+    right: 18.5%;
+}
+
+.part1__singup button{
+    @include btn;
+    position: relative;
+    margin-left: -50px;
+}
+
+.part1__singup p{
+    margin-left: 50px;
+    color: rgb(54, 83, 107);
+}
+
+.part1__img{
+    position: absolute;
+    width: 262.5px;
+    height: 499.43px;
+    left: 770px;
+    top: 147px;
+}
+
+.patr1__img1{
+
+    position: absolute;
+    width: 218px;
+    height: 87px;
+    left: 845px;
+    top: 380px;
+}
+
+
+@media only screen and (max-width:1080px) {
+    .part1__singup{
+       position: relative;
+       top: 500px;
+       left: 255px;
+    }
+
+    .part1__singup p{
+        margin-left: 110px;
+    }
+
+    .part1__img{
+        position: absolute;
+        left: 380px;
+        top: 147px;
+    }
+
+    .patr1__img1{
+        position: absolute;
+        left: 455px;
+        top: 380px;
+    }
+}

@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__navigation{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-left: -400px;
+}
+
+.navbar__navigation a{
+    text-decoration: none;
+    color: rgb(54, 83, 107);
+    font-weight: 900;
+    opacity: 0.7;
+}
+
+.navbar__navigation a:hover{
+    @include hover;
+}
+
+.navbar__btn, button{
+    @include btn;
+
+}
+
+@media only screen and (max-width:1080px) {
+    .navbar__navigation{
+        margin-left: 40px;
+    }
+}
